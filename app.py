@@ -71,7 +71,7 @@ def buy(concert: str = Form(...), user_prompt: str = Form(...)):
     We simulate one day (pricing.simulate_purchase) using the user_prompt and a generated web_traffic,
     then compute the reward for the chosen concert and log results.
     """
-    # generate a web_traffic dict (you can replace with real traffic)
+    # generate a web_traffic dict 
     web_traffic = {c: random.randint(20, 100) for c in base_prices}
 
     # Run simulation for the day (this updates price_history, sold tickets, etc.)
