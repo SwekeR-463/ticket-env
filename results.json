@@ -1,0 +1,296 @@
+[
+  {
+    "date": "2025-09-17 20:25:15.860777",
+    "user_prompt": "Find me the cheapest ticket",
+    "decision": "Arijit Singh",
+    "price": 5400.0,
+    "reward": 4,
+    "bins": [
+      5400.0,
+      5400.0,
+      5400.0,
+      5400.0,
+      5400.0,
+      5400.0
+    ],
+    "bin_index": 1,
+    "web_traffic": {
+      "Coldplay": 34,
+      "Arijit Singh": 92,
+      "Taylor Swift": 79
+    }
+  },
+  {
+    "date": "2025-09-18 20:25:15.860777",
+    "user_prompt": "Find me the cheapest ticket",
+    "decision": "Arijit Singh",
+    "price": 5400.0,
+    "reward": 4,
+    "bins": [
+      5400.0,
+      5400.0,
+      5400.0,
+      5400.0,
+      5400.0,
+      5400.0
+    ],
+    "bin_index": 1,
+    "web_traffic": {
+      "Coldplay": 57,
+      "Arijit Singh": 38,
+      "Taylor Swift": 53
+    }
+  },
+  {
+    "date": "2025-09-19 20:25:15.860777",
+    "user_prompt": "Find me the cheapest ticket",
+    "decision": "Arijit Singh",
+    "price": 6750.0,
+    "reward": -1.0,
+    "bins": [
+      5400.0,
+      5670.0,
+      5940.0,
+      6210.0,
+      6480.0,
+      6750.0
+    ],
+    "bin_index": 5,
+    "web_traffic": {
+      "Coldplay": 46,
+      "Arijit Singh": 72,
+      "Taylor Swift": 84
+    }
+  },
+  {
+    "date": "2025-09-20 20:25:15.860777",
+    "user_prompt": "Find me the cheapest ticket",
+    "decision": "Arijit Singh",
+    "price": 5625.0,
+    "reward": 4,
+    "bins": [
+      5400.0,
+      5670.0,
+      5940.0,
+      6210.0,
+      6480.0,
+      6750.0
+    ],
+    "bin_index": 1,
+    "web_traffic": {
+      "Coldplay": 86,
+      "Arijit Singh": 64,
+      "Taylor Swift": 74
+    }
+  },
+  {
+    "date": "2025-09-21 20:25:15.860777",
+    "user_prompt": "Find me the cheapest ticket",
+    "decision": "Arijit Singh",
+    "price": 6750.0,
+    "reward": -1.0,
+    "bins": [
+      5400.0,
+      5670.0,
+      5940.0,
+      6210.0,
+      6480.0,
+      6750.0
+    ],
+    "bin_index": 5,
+    "web_traffic": {
+      "Coldplay": 72,
+      "Arijit Singh": 84,
+      "Taylor Swift": 93
+    }
+  },
+  {
+    "date": "2025-09-22 20:25:15.860777",
+    "user_prompt": "Find me the cheapest ticket",
+    "decision": "Arijit Singh",
+    "price": 6750.0,
+    "reward": -1.0,
+    "bins": [
+      5400.0,
+      5670.0,
+      5940.0,
+      6210.0,
+      6480.0,
+      6750.0
+    ],
+    "bin_index": 5,
+    "web_traffic": {
+      "Coldplay": 66,
+      "Arijit Singh": 82,
+      "Taylor Swift": 34
+    }
+  },
+  {
+    "date": "2025-09-23 20:25:15.860777",
+    "user_prompt": "Find me the cheapest ticket",
+    "decision": "Arijit Singh",
+    "price": 6750.0,
+    "reward": -1.0,
+    "bins": [
+      5400.0,
+      5670.0,
+      5940.0,
+      6210.0,
+      6480.0,
+      6750.0
+    ],
+    "bin_index": 5,
+    "web_traffic": {
+      "Coldplay": 38,
+      "Arijit Singh": 88,
+      "Taylor Swift": 97
+    }
+  },
+  {
+    "date": "2025-09-17 20:31:47.587310",
+    "user_prompt": "Find me the cheapest ticket",
+    "decision": "Arijit Singh",
+    "price": 5400.0,
+    "reward": 4,
+    "bins": [
+      5400.0,
+      5400.0,
+      5400.0,
+      5400.0,
+      5400.0,
+      5400.0
+    ],
+    "bin_index": 1,
+    "web_traffic": {
+      "Coldplay": 80,
+      "Arijit Singh": 96,
+      "Taylor Swift": 88
+    }
+  },
+  {
+    "date": "2025-09-18 20:31:47.587310",
+    "user_prompt": "Find me the cheapest ticket",
+    "decision": "Arijit Singh",
+    "price": 5400.0,
+    "reward": 4,
+    "bins": [
+      5400.0,
+      5400.0,
+      5400.0,
+      5400.0,
+      5400.0,
+      5400.0
+    ],
+    "bin_index": 1,
+    "web_traffic": {
+      "Coldplay": 59,
+      "Arijit Singh": 43,
+      "Taylor Swift": 50
+    }
+  },
+  {
+    "date": "2025-09-19 20:31:47.587310",
+    "user_prompt": "Find me the cheapest ticket",
+    "decision": "Arijit Singh",
+    "price": 5625.0,
+    "reward": -1.0,
+    "bins": [
+      5400.0,
+      5445.0,
+      5490.0,
+      5535.0,
+      5580.0,
+      5625.0
+    ],
+    "bin_index": 5,
+    "web_traffic": {
+      "Coldplay": 52,
+      "Arijit Singh": 51,
+      "Taylor Swift": 73
+    }
+  },
+  {
+    "date": "2025-09-20 20:31:47.587310",
+    "user_prompt": "Find me the cheapest ticket",
+    "decision": "Arijit Singh",
+    "price": 5625.0,
+    "reward": -1.0,
+    "bins": [
+      5400.0,
+      5445.0,
+      5490.0,
+      5535.0,
+      5580.0,
+      5625.0
+    ],
+    "bin_index": 5,
+    "web_traffic": {
+      "Coldplay": 100,
+      "Arijit Singh": 62,
+      "Taylor Swift": 35
+    }
+  },
+  {
+    "date": "2025-09-21 20:31:47.587310",
+    "user_prompt": "Find me the cheapest ticket",
+    "decision": "Arijit Singh",
+    "price": 6750.0,
+    "reward": -1.0,
+    "bins": [
+      5400.0,
+      5670.0,
+      5940.0,
+      6210.0,
+      6480.0,
+      6750.0
+    ],
+    "bin_index": 5,
+    "web_traffic": {
+      "Coldplay": 71,
+      "Arijit Singh": 88,
+      "Taylor Swift": 81
+    }
+  },
+  {
+    "date": "2025-09-22 20:31:47.587310",
+    "user_prompt": "Find me the cheapest ticket",
+    "decision": "Arijit Singh",
+    "price": 5625.0,
+    "reward": 4,
+    "bins": [
+      5400.0,
+      5670.0,
+      5940.0,
+      6210.0,
+      6480.0,
+      6750.0
+    ],
+    "bin_index": 1,
+    "web_traffic": {
+      "Coldplay": 65,
+      "Arijit Singh": 54,
+      "Taylor Swift": 43
+    }
+  },
+  {
+    "date": "2025-09-23 20:31:47.587310",
+    "user_prompt": "Find me the cheapest ticket",
+    "decision": "Arijit Singh",
+    "price": 6750.0,
+    "reward": -1.0,
+    "bins": [
+      5400.0,
+      5670.0,
+      5940.0,
+      6210.0,
+      6480.0,
+      6750.0
+    ],
+    "bin_index": 5,
+    "web_traffic": {
+      "Coldplay": 45,
+      "Arijit Singh": 93,
+      "Taylor Swift": 44
+    }
+  }
+]

@@ -1,0 +1,45 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Concert Shop</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; }
+    .concert { border: 1px solid #ddd; padding: 12px; margin-bottom: 12px; }
+    button { padding: 8px 12px; }
+    pre { background:#f4f4f4; padding:8px; }
+  </style>
+</head>
+<body>
+  <h1>Concert Ticket Shop</h1>
+  <p>Open the agent or press buy to simulate a purchase. Results are logged at <code>/results</code>.</p>
+
+  <div id="concert-list">
+    {% for c, info in state.items() %}
+      <div class="concert">
+        <h3>{{ c }}</h3>
+        <p>Latest price: ₹{{ info.latest_price }}</p>
+        <p>Tickets remaining: {{ info.remaining }}</p>
+        <p>Preference: {{ info.preference }}</p>
+
+        <form method="post" action="/buy">
+          <input type="hidden" name="concert" value="{{ c }}" />
+          <label>User prompt: <input name="user_prompt" value="I want to buy {{ c }} tickets" style="width:70%;"/></label>
+          <button type="submit">Buy (form)</button>
+        </form>
+      </div>
+    {% endfor %}
+  </div>
+
+  <hr />
+  <h3>LLM-driven buy</h3>
+  <form method="post" action="/llm_buy">
+    <label>User prompt for LLM: <input name="user_prompt" value="Find me the cheapest ticket" style="width:70%;" /></label>
+    <button type="submit">Ask LLM and buy</button>
+  </form>
+
+  <hr/>
+  <p><a href="/results" target="_blank">View results.json log</a></p>
+</body>
+</html>
