@@ -20,7 +20,7 @@ if not os.path.exists(RESULTS_FILE):
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 
-# Setup concerts using same shape as your pricing.py expects
+# Setup concerts
 base_prices = {
     "Coldplay": 7000,
     "Arijit Singh": 5000,
